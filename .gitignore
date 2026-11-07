@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+/index*/
+/data/
+*.zip
+*.xml
+*.xml.bz2
+/built_index/S20240010206-hiwiki-index/
