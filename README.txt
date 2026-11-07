@@ -297,15 +297,10 @@ It then checks that every term's on-disk postings equal those of a
 brute-force in-memory index. It also checks phrase, NEAR and AND results
 against brute force.
 
-3.6 Packaging the submission
+3.6 Submission contents
 
-Run this from the top folder. It works on Windows, Linux and macOS and
-needs only Python (make_submission.sh is a bash equivalent):
-
-    python make_submission.py S20240010206
-
-This creates S20240010206-A1-PostIndex-IR-M2026.zip with exactly the three
-files the assignment asks for:
+The submission S20240010206-A1-PostIndex-IR-M2026.zip contains exactly the
+three files the assignment asks for:
 
     README.txt              this document
     S20240010206-src.zip    source code, tests, sample data, and the
@@ -579,8 +574,6 @@ The 10 rare terms in the submitted output:
 9. FOLDER LAYOUT
 
     README.txt              this file
-    make_submission.py      builds the submission zip (any OS)
-    make_submission.sh      bash version of the same
     src/indicindex          source code (see section 4.2)
     tests                   unit and oracle tests
     sample_data             500-article Hindi Wikipedia sample and 25
